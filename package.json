@@ -1,0 +1,41 @@
+{
+  "name": "orbital-client",
+  "version": "0.0.1",
+  "description": "A client app for orbital-server",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "npm run serve | npm run dev",
+    "serve": "./node_modules/.bin/http-server ./src -p 8080",
+    "dev": "webpack-dev-server --progress --colors --port 8090"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrbitalCommand/orbital-client.git"
+  },
+  "author": "Dick Choi <fluke8259@gmail.com> (http://kazup.co)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrbitalCommand/orbital-client/issues"
+  },
+  "homepage": "https://github.com/OrbitalCommand/orbital-client#readme",
+  "devDependencies": {
+    "css-loader": "^0.15.6",
+    "http-server": "^0.8.0",
+    "jsx-loader": "^0.13.2",
+    "nib": "^1.1.0",
+    "node-libs-browser": "^0.5.2",
+    "style-loader": "^0.12.3",
+    "stylus-loader": "^1.2.1",
+    "webpack": "^1.10.5",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "dependencies": {
+    "superagent": "^1.2.0",
+    "superagent-promise": "^1.0.3"
+  },
+  "standard": {
+    "global": [
+      "localStorage"
+    ]
+  }
+}

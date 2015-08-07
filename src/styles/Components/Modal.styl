@@ -1,0 +1,14 @@
+.ModalBase
+  fixed top left bottom right
+  z-index modalZIndex
+  &.hide
+    display none
+  .modal
+    position relative
+    width modalWidth
+    margin 35px auto 0
+    z-index modalZIndex + 2
+  .modalBack
+    absolute top left bottom right
+    background-color modalBackColor
+    z-index modalZIndex + 1

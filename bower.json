@@ -1,0 +1,23 @@
+{
+  "name": "orbital-client",
+  "version": "0.0.1",
+  "homepage": "https://github.com/OrbitalCommand/orbital-client",
+  "authors": [
+    "Rokt33r <fluke8259@gmail.com>"
+  ],
+  "description": "A client app for orbital-server",
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.13.3",
+    "react-router": "~0.13.3",
+    "reflux": "~0.2.11",
+    "moment": "~2.10.6"
+  }
+}
